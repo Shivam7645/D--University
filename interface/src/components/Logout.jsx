@@ -25,7 +25,7 @@ const Logout = () => {
     try {
       //console.log("handle logout");
       // Call your backend to invalidate the token
-      await axios.post("http://localhost:5000/user/logout");
+      await axios.post("https://d-university-7ieo.vercel.app/user/logout");
 
       // Perform client-side logout
       logout();

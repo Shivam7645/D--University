@@ -122,7 +122,7 @@ const Register = () => {
       try {
         //console.log(formData);
         const response = await axios.post(
-          "http://localhost:5000/user/register",
+          "https://d-university-7ieo.vercel.app/user/register",
           formData
         );
         setSuccessMessage(response.data.message);
